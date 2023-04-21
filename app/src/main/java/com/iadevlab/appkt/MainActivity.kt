@@ -18,7 +18,12 @@ class MainActivity : AppCompatActivity() {
         textApp = findViewById(R.id.text_id)
 
         btn.setOnClickListener {
-            textApp.text = getString(R.string.city)
+            if (textApp.text == "Araguaína"){
+                textApp.text = getString(R.string.city2)
+            }else {
+                textApp.text = getString(R.string.city1)
+            }
+
         }
     }
 
