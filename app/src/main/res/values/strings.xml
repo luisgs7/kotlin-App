@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">appkt</string>
+    <string name="text_field">Clique no Botão!</string>
+    <string name="text_button">Alterando o nome da cidade</string>
+    <string name="app_city_name">City APP</string>
+</resources>
